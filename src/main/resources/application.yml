@@ -1,0 +1,16 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 100MB
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      username: lumia
+      password: lumia
+      database: images
+
+upload:
+  path: /data/images
+  url: https://images.caoyuqian.cn

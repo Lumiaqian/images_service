@@ -24,7 +24,7 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew build
-    - name: Log into registry && Build image && Push image
+    - name: Publish to Registry
         uses: elgohr/Publish-Docker-Github-Action@master
         with:
           name: lumiaqian/images_service

@@ -1,1 +1,1 @@
-# images_service
+# 图片服务器
